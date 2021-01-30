@@ -3,8 +3,8 @@ import cors from 'cors';
 
 const app = express();
 
-import appRoutes from './routes';
-import { verifyPayload } from './helpers/verifyPayload';
+import appRoutes from './routes/index.js';
+import { verifyPayload } from './helpers/verifyPayload.js';
 
 app.use(cors());
 app.use(
