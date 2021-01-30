@@ -2,10 +2,13 @@
   "name": "rules",
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
+    "start": "node index.js",
     "dev": "nodemon --exec babel-node index.js",
     "test": "jest --watchAll"
   },

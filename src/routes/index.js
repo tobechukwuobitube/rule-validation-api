@@ -1,6 +1,6 @@
 import express from 'express'
-import baseRoute from './baseRoute'
-import validateRuleRoute from './validateRuleRoute'
+import baseRoute from './baseRoute.js'
+import validateRuleRoute from './validateRuleRoute.js'
 
 const app = express()
 

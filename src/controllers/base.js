@@ -1,4 +1,4 @@
-import {personalData} from '../data/data'
+import {personalData} from '../data/data.js'
 
 export const base = (request, response) => {
 	try {

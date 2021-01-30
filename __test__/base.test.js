@@ -1,6 +1,6 @@
 import request from 'supertest'
-import app from '../src/server'
-import {personalData} from '../src/data/data'
+import app from '../src/server.js'
+import {personalData} from '../src/data/data.js'
 
 describe('Base JSEND format', () => {
     test('base contains required JSEND message property', async () => {

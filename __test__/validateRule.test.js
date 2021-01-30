@@ -1,6 +1,6 @@
 import request from 'supertest'
-import app from '../src/server'
-import {validateRuleSampleData, dataWithEqualEvaluationRule} from '../src/data/data'
+import app from '../src/server.js'
+import {validateRuleSampleData, dataWithEqualEvaluationRule} from '../src/data/data.js'
 
 
 describe('Validate Rule Required response properties', () => {
